@@ -1,0 +1,56 @@
+﻿.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+  width: 100%;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.education-container {
+  margin-bottom: 98px;
+}
+
+.text-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.text-left p {
+  text-align: left;
+}
+
+.img-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 45%;
+}
+
+.text-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%
+}
+
+.text-right p {
+  text-align: left;
+}
+
+.img-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 45%;
+}

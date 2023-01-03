@@ -14,3 +14,48 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+body {
+  background: linear-gradient(90deg, #deeeff 0%, #edf6ff 25%, #edf6ff 75%, #deeeff 100%);
+}
+
+.btn-secondary {
+  color: darkgray;
+  background-color: white;
+  border-color: #1b6ec2;
+}
+
+h1 {
+  font-size: 32pt;
+  color: #1c4587;
+}
+
+h2 {
+  font-size: 18pt;
+  color: #1c4587;
+}
+
+h3 {
+  font-size: 16pt;
+  color: black;
+}
+
+h4 {
+  font-size: 12pt;
+  color: black;
+}
+
+.no-space-below {
+  margin-bottom: 8px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  color: lightgray;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, #1c4587 25%, #1c4587 75%, rgba(0,0,0,1) 100%);
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
