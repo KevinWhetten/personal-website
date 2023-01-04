@@ -12,6 +12,8 @@ import {AboutComponent} from './about/about.component';
 import {EducationComponent} from './education/education.component';
 import {MiniaturesComponent} from "./miniatures/miniatures.component";
 import {MusicComponent} from './music/music.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import {MusicComponent} from './music/music.component';
       {path: 'education', component: EducationComponent},
       {path: 'miniatures', component: MiniaturesComponent},
       {path: 'music', component: MusicComponent},
-    ])
+    ]),
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
