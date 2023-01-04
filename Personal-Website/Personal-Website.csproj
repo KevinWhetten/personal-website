@@ -23,7 +23,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="ClientApp\src\assets\images\about" />
       <Folder Include="ClientApp\src\assets\images\education" />
     </ItemGroup>
 

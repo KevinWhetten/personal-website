@@ -14,6 +14,9 @@ import {MiniaturesComponent} from "./miniatures/miniatures.component";
 import {MusicComponent} from './music/music.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatButtonModule} from "@angular/material/button";
+import { HistoryComponent } from './history/history.component';
+import { ProjectsComponent } from './projects/projects.component';
+import {ContactComponent} from "./contact/contact.component";
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import {MatButtonModule} from "@angular/material/button";
     AboutComponent,
     EducationComponent,
     MiniaturesComponent,
-    MusicComponent
+    MusicComponent,
+    HistoryComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'ng-cli-universal'}),
@@ -33,8 +38,11 @@ import {MatButtonModule} from "@angular/material/button";
     RouterModule.forRoot([
       {path: '', component: AboutComponent, pathMatch: 'full'},
       {path: 'education', component: EducationComponent},
-      {path: 'miniatures', component: MiniaturesComponent},
+      {path: 'history', component: HistoryComponent},
       {path: 'music', component: MusicComponent},
+      {path: 'miniatures', component: MiniaturesComponent},
+      {path: 'projects', component: ProjectsComponent},
+      {path: 'contact', component: ContactComponent},
     ]),
     MatIconModule,
     MatButtonModule

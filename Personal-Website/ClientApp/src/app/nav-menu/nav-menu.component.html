@@ -12,19 +12,21 @@
           <li class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link text-light" [routerLink]="['/education']">Education</a>
           </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/history']">History</a>
-          </li>
+<!--          <li class="nav-item" [routerLinkActive]="['link-active']">-->
+<!--            <a class="nav-link text-light" [routerLink]="['/history']">History</a>-->
+<!--          </li>-->
           <li class="nav-item">
-            <a class="nav-link text-light" mat-button [matMenuTriggerFor]="menu">Menu</a>
-            <div>
-              <mat-menu #menu="matMenu">
-                <a mat-menu-item class="nav-link text-light" [routerLink]="['/music']">Music</a>
-                <a mat-menu-item class="nav-link text-light" [routerLink]="['/miniatures']">Miniatures</a>
-                <a mat-menu-item class="nav-link text-light" [routerLink]="['/']"></a>
-              </mat-menu>
-            </div>
+            <a class="nav-link text-light" [routerLink]="['/music']">Music</a>
           </li>
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link text-light" [routerLink]="['/miniatures']">Miniatures</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link text-light" [routerLink]="['/projects']">Projects</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link text-light" [routerLink]="['/contact']">Contact</a>-->
+<!--          </li>-->
         </ul>
       </div>
     </div>
